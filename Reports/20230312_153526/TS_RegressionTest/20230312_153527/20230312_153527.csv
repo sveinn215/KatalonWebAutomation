@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 111.0.0.0,,,2023-03-12 15:35:29,2023-03-12 15:36:29,59.867s,FAILED
+,,,,,,,
+Test Cases/TC03_Dropdown,Chrome 111.0.0.0,,,2023-03-12 15:35:29,2023-03-12 15:35:39,9.642s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:35:29,2023-03-12 15:35:32,2.317s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:35:32,2023-03-12 15:35:35,3.295s,PASSED
+"click(findTestObject(""Object Repository/Page_Dropdown/a_Dropdown""))",Chrome 111.0.0.0,,,2023-03-12 15:35:35,2023-03-12 15:35:36,0.753s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200""), ""1"", true)",Chrome 111.0.0.0,,,2023-03-12 15:35:36,2023-03-12 15:35:37,1.070s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_Dropdown/select_Please select an option    Option 1 _a93200""), ""Option 1"", false, G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:35:37,2023-03-12 15:35:39,1.795s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:35:39,2023-03-12 15:35:39,0.102s,PASSED
+,,,,,,,
+Test Cases/TC02_FormAuthInvalid,Chrome 111.0.0.0,,,2023-03-12 15:35:39,2023-03-12 15:35:48,9.448s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:35:39,2023-03-12 15:35:40,1.303s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:35:40,2023-03-12 15:35:44,3.206s,PASSED
+"click(findTestObject(""Page_Form/a_Form Authentication""))",Chrome 111.0.0.0,,,2023-03-12 15:35:44,2023-03-12 15:35:45,1.679s,PASSED
+"setText(findTestObject(""Page_Form/input_Username_username""), ""tomsmith"")",Chrome 111.0.0.0,,,2023-03-12 15:35:45,2023-03-12 15:35:46,1.126s,PASSED
+"setEncryptedText(findTestObject(""Page_Form/input_Password_password""), ""HYgoh8+fSawe6uICC60QVw=="")",Chrome 111.0.0.0,,,2023-03-12 15:35:46,2023-03-12 15:35:47,0.378s,PASSED
+"click(findTestObject(""Page_Form/i_Login""))",Chrome 111.0.0.0,,,2023-03-12 15:35:47,2023-03-12 15:35:48,1.026s,PASSED
+"verifyElementPresent(findTestObject(""Page_Form/div_Your password is invalid""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:35:48,2023-03-12 15:35:48,0.380s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:35:48,2023-03-12 15:35:48,0.101s,PASSED
+,,,,,,,
+Test Cases/TC04_MultiBrowser,Chrome 111.0.0.0,,,2023-03-12 15:35:48,2023-03-12 15:36:02,13.552s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:35:48,2023-03-12 15:35:50,1.334s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:35:50,2023-03-12 15:35:54,3.830s,PASSED
+"click(findTestObject(""Object Repository/Page_MultiBrowser/a_Multiple Windows""))",Chrome 111.0.0.0,,,2023-03-12 15:35:54,2023-03-12 15:35:55,0.957s,PASSED
+"click(findTestObject(""Object Repository/Page_MultiBrowser/a_Click Here""))",Chrome 111.0.0.0,,,2023-03-12 15:35:55,2023-03-12 15:35:55,0.320s,PASSED
+"switchToWindowTitle(""New Window"")",Chrome 111.0.0.0,,,2023-03-12 15:35:55,2023-03-12 15:35:55,0.298s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:35:55,2023-03-12 15:36:02,6.604s,FAILED
+,,,,,,,
+Test Cases/TC01_FormAuthentication,Chrome 111.0.0.0,,,2023-03-12 15:36:02,2023-03-12 15:36:12,10.469s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:36:02,2023-03-12 15:36:03,1.486s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:36:03,2023-03-12 15:36:04,0.140s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:36:04,2023-03-12 15:36:05,1.317s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:36:05,2023-03-12 15:36:08,3.254s,PASSED
+"click(findTestObject(""Object Repository/Page_Form/a_Form Authentication""))",Chrome 111.0.0.0,,,2023-03-12 15:36:08,2023-03-12 15:36:09,1.191s,PASSED
+"setText(findTestObject(""Object Repository/Page_Form/input_Username_username""), ""tomsmith"")",Chrome 111.0.0.0,,,2023-03-12 15:36:09,2023-03-12 15:36:10,0.966s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Form/input_Password_password""), ""T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI"")",Chrome 111.0.0.0,,,2023-03-12 15:36:10,2023-03-12 15:36:11,0.461s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Page_Form/i_Login""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:11,2023-03-12 15:36:11,0.612s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Page_Form/h2_Secure Area""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:11,2023-03-12 15:36:12,0.392s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:12,2023-03-12 15:36:12,0.342s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:36:12,2023-03-12 15:36:12,0.128s,PASSED
+,,,,,,,
+Test Cases/TC06_DragDrop,Chrome 111.0.0.0,,,2023-03-12 15:36:12,2023-03-12 15:36:20,7.618s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:36:12,2023-03-12 15:36:14,1.369s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:36:14,2023-03-12 15:36:18,4.529s,PASSED
+"click(findTestObject(""Object Repository/Page_DragDrop/a_Drag and Drop""))",Chrome 111.0.0.0,,,2023-03-12 15:36:18,2023-03-12 15:36:19,0.891s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DragDrop/header_A""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:19,2023-03-12 15:36:20,0.474s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:36:20,2023-03-12 15:36:20,0.151s,PASSED
+,,,,,,,
+Test Cases/TC05_Alerts,Chrome 111.0.0.0,,,2023-03-12 15:36:20,2023-03-12 15:36:29,8.915s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-12 15:36:20,2023-03-12 15:36:21,1.223s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-03-12 15:36:21,2023-03-12 15:36:25,3.283s,PASSED
+"click(findTestObject(""Object Repository/Page_Alerts/a_JavaScript Alerts""))",Chrome 111.0.0.0,,,2023-03-12 15:36:25,2023-03-12 15:36:26,0.966s,PASSED
+"click(findTestObject(""Object Repository/Page_Alerts/button_Click for JS Alert""))",Chrome 111.0.0.0,,,2023-03-12 15:36:26,2023-03-12 15:36:26,0.539s,PASSED
+acceptAlert(),Chrome 111.0.0.0,,,2023-03-12 15:36:26,2023-03-12 15:36:26,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Alerts/p_You successfully clicked an alert""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:26,2023-03-12 15:36:27,0.611s,PASSED
+"click(findTestObject(""Object Repository/Page_Alerts/button_Click for JS Confirm""))",Chrome 111.0.0.0,,,2023-03-12 15:36:27,2023-03-12 15:36:27,0.331s,PASSED
+acceptAlert(),Chrome 111.0.0.0,,,2023-03-12 15:36:27,2023-03-12 15:36:27,0.009s,PASSED
+"verifyElementPresent(findTestObject(""Page_Alerts/p_You clicked Ok""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:27,2023-03-12 15:36:28,0.608s,PASSED
+"click(findTestObject(""Object Repository/Page_Alerts/button_Click for JS Prompt""))",Chrome 111.0.0.0,,,2023-03-12 15:36:28,2023-03-12 15:36:28,0.448s,PASSED
+driver = getWebDriver(),Chrome 111.0.0.0,,,2023-03-12 15:36:28,2023-03-12 15:36:28,0.006s,PASSED
+"alert().sendKeys(""imam"")",Chrome 111.0.0.0,"Passing the text in the text box in the Alert
+",,2023-03-12 15:36:28,2023-03-12 15:36:28,0.018s,PASSED
+acceptAlert(),Chrome 111.0.0.0,,,2023-03-12 15:36:28,2023-03-12 15:36:28,0.008s,PASSED
+"verifyElementPresent(findTestObject(""Page_Alerts/p_You entered imam""), G_ShortTimeOut)",Chrome 111.0.0.0,,,2023-03-12 15:36:28,2023-03-12 15:36:29,0.511s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-12 15:36:29,2023-03-12 15:36:29,0.100s,PASSED

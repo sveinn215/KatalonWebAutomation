@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Welcome to the Secure Area. When you are_5c73fc</name>
+   <tag></tag>
+   <elementGuidId>f77e8d30-2a9b-4cb0-a560-90728743d25e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.subheader</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>17aba6bc-4f8d-4e6d-bcd4-f5c7d34607c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>subheader</value>
+      <webElementGuid>143fabf8-3295-45b6-8042-d155ca9bb791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to the Secure Area. When you are done click logout below.</value>
+      <webElementGuid>5950b6b7-3fcc-4f38-afb9-d469ef247bec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;example&quot;]/h4[@class=&quot;subheader&quot;]</value>
+      <webElementGuid>ac30b566-738d-4c8b-aa92-ee50033f98ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/h4</value>
+      <webElementGuid>0b7365e0-671c-4218-b922-9df74877db8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secure Area'])[1]/following::h4[1]</value>
+      <webElementGuid>27f3c54e-5fe7-496b-9fc0-9c04f6d94bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::h4[1]</value>
+      <webElementGuid>732689c6-4835-4eed-995a-72ea67b911e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome to the Secure Area. When you are done click logout below.']/parent::*</value>
+      <webElementGuid>19f62ef3-a922-4895-9847-56743b8e81ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>b44d5e61-031d-41fd-9d01-32486249328b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Welcome to the Secure Area. When you are done click logout below.' or . = 'Welcome to the Secure Area. When you are done click logout below.')]</value>
+      <webElementGuid>221361c6-e82a-41d7-8e9b-bbe074128f2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

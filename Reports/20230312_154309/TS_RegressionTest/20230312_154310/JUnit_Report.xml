@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="64.267" tests="6" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="6" failures="0" errors="0" time="64.267" skipped="0" timestamp="2023-03-12 15:43:12" hostname="isfahani - localhost" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_154309/TS_RegressionTest/20230312_154310"/>
+         <property name="logFiles" value="/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_154309/TS_RegressionTest/20230312_154310/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isfahani - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="beccdaa503a196b87259e79abaccbc21"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC03_Dropdown" time="9.253" classname="Test Cases/TC03_Dropdown" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:43:12 - [TEST_CASE][PASSED] - Test Cases/TC03_Dropdown: Test Cases/TC03_Dropdown
+
+2023-03-12 15:43:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:15 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:18 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dropdown/a_Dropdown")): Object: 'Object Repository/Page_Dropdown/a_Dropdown' is clicked on
+
+2023-03-12 15:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dropdown/a_Dropdown' is clicked on
+
+2023-03-12 15:43:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200'  using regular expression
+
+2023-03-12 15:43:20 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200'  using regular expression
+
+2023-03-12 15:43:20 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_Dropdown/select_Please select an option    Option 1 _a93200"), "Option 1", false, G_ShortTimeOut): All options with label 'Option 1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200' 
+
+2023-03-12 15:43:21 - [MESSAGE][PASSED] - All options with label 'Option 1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200' 
+
+2023-03-12 15:43:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:43:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_FormAuthInvalid" time="11.281" classname="Test Cases/TC02_FormAuthInvalid" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:43:22 - [TEST_CASE][PASSED] - Test Cases/TC02_FormAuthInvalid: Test Cases/TC02_FormAuthInvalid
+
+2023-03-12 15:43:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:23 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:29 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Form/a_Form Authentication")): Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:43:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Form/input_Username_username"), "tomsmith"): Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:43:31 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:43:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Form/input_Password_password"), "HYgoh8+fSawe6uICC60QVw=="): Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:43:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Form/i_Login")): Object: 'Object Repository/Page_Form/i_Login' is clicked on
+
+2023-03-12 15:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/i_Login' is clicked on
+
+2023-03-12 15:43:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Form/div_Your password is invalid"), G_ShortTimeOut): Object 'Object Repository/Page_Form/div_Your password is invalid' is present
+
+2023-03-12 15:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/div_Your password is invalid' is present
+
+2023-03-12 15:43:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:43:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_MultiBrowser" time="10.991" classname="Test Cases/TC04_MultiBrowser" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:43:33 - [TEST_CASE][PASSED] - Test Cases/TC04_MultiBrowser: Test Cases/TC04_MultiBrowser
+
+2023-03-12 15:43:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:34 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:42 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MultiBrowser/a_Multiple Windows")): Object: 'Object Repository/Page_MultiBrowser/a_Multiple Windows' is clicked on
+
+2023-03-12 15:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultiBrowser/a_Multiple Windows' is clicked on
+
+2023-03-12 15:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MultiBrowser/a_Click Here")): Object: 'Object Repository/Page_MultiBrowser/a_Click Here' is clicked on
+
+2023-03-12 15:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultiBrowser/a_Click Here' is clicked on
+
+2023-03-12 15:43:43 - [TEST_STEP][PASSED] - switchToWindowTitle("New Window"): Switched to window with title: 'New Window'
+
+2023-03-12 15:43:43 - [MESSAGE][PASSED] - Switched to window with title: 'New Window'
+
+2023-03-12 15:43:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_MultiBrowser/Page_New Window/h3_New Window"), G_ShortTimeOut): Object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+
+2023-03-12 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+
+2023-03-12 15:43:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:43:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01_FormAuthentication" time="10.246" classname="Test Cases/TC01_FormAuthentication" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:43:44 - [TEST_CASE][PASSED] - Test Cases/TC01_FormAuthentication: Test Cases/TC01_FormAuthentication
+
+2023-03-12 15:43:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:43:45 - [MESSAGE][PASSED] - Browser is closed
+
+2023-03-12 15:43:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:47 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:50 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form/a_Form Authentication")): Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form/input_Username_username"), "tomsmith"): Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:43:52 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:43:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Form/input_Password_password"), "T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI"): Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:43:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:43:53 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/i_Login"), G_ShortTimeOut): Object 'Object Repository/Page_Form/i_Login' is present and visible in viewport
+
+2023-03-12 15:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/i_Login' is present and visible in viewport
+
+2023-03-12 15:43:53 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/h2_Secure Area"), G_ShortTimeOut): Object 'Object Repository/Page_Form/h2_Secure Area' is present and visible in viewport
+
+2023-03-12 15:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/h2_Secure Area' is present and visible in viewport
+
+2023-03-12 15:43:54 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc"), G_ShortTimeOut): Object 'Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc' is present and visible in viewport
+
+2023-03-12 15:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc' is present and visible in viewport
+
+2023-03-12 15:43:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:43:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_DragDrop" time="7.253" classname="Test Cases/TC06_DragDrop" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:43:54 - [TEST_CASE][PASSED] - Test Cases/TC06_DragDrop: Test Cases/TC06_DragDrop
+
+2023-03-12 15:43:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:43:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:43:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:43:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:43:56 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:44:00 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DragDrop/a_Drag and Drop")): Object: 'Object Repository/Page_DragDrop/a_Drag and Drop' is clicked on
+
+2023-03-12 15:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DragDrop/a_Drag and Drop' is clicked on
+
+2023-03-12 15:44:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DragDrop/header_A"), G_ShortTimeOut): Object 'Object Repository/Page_DragDrop/header_A' is present
+
+2023-03-12 15:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DragDrop/header_A' is present
+
+2023-03-12 15:44:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:44:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_Alerts" time="15.026" classname="Test Cases/TC05_Alerts" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:44:01 - [TEST_CASE][PASSED] - Test Cases/TC05_Alerts: Test Cases/TC05_Alerts
+
+2023-03-12 15:44:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:44:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:44:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:44:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:44:03 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:44:13 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/a_JavaScript Alerts")): Object: 'Object Repository/Page_Alerts/a_JavaScript Alerts' is clicked on
+
+2023-03-12 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/a_JavaScript Alerts' is clicked on
+
+2023-03-12 15:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Alert")): Object: 'Object Repository/Page_Alerts/button_Click for JS Alert' is clicked on
+
+2023-03-12 15:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Alert' is clicked on
+
+2023-03-12 15:44:14 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:44:14 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:44:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Alerts/p_You successfully clicked an alert"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You successfully clicked an alert' is present
+
+2023-03-12 15:44:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You successfully clicked an alert' is present
+
+2023-03-12 15:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Confirm")): Object: 'Object Repository/Page_Alerts/button_Click for JS Confirm' is clicked on
+
+2023-03-12 15:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Confirm' is clicked on
+
+2023-03-12 15:44:15 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:44:15 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:44:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Alerts/p_You clicked Ok"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You clicked Ok' is present
+
+2023-03-12 15:44:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You clicked Ok' is present
+
+2023-03-12 15:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Prompt")): Object: 'Object Repository/Page_Alerts/button_Click for JS Prompt' is clicked on
+
+2023-03-12 15:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Prompt' is clicked on
+
+2023-03-12 15:44:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-03-12 15:44:16 - [TEST_STEP][PASSED] - alert().sendKeys("imam"): null
+
+2023-03-12 15:44:16 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:44:16 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:44:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Alerts/p_You entered imam"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You entered imam' is present
+
+2023-03-12 15:44:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You entered imam' is present
+
+2023-03-12 15:44:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:44:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-12 15:43:12 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/TC05_Alerts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

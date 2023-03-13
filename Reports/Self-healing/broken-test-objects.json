@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027/html[1]/body[1]/div[@class\u003d\u0027, \u0027\"\u0027, \u0027example\u0027, \u0027\"\u0027, \u0027]/h3[1]\u0027)])[1]/preceding::h3[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h3",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window_position.png"
+    }
+  ]
+}

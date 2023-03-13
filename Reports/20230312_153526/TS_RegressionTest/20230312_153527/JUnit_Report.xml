@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="59.867" tests="6" failures="1" errors="0">
+   <testsuite name="TS_RegressionTest" tests="6" failures="1" errors="0" time="59.867" skipped="0" timestamp="2023-03-12 15:35:29" hostname="isfahani - localhost" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527"/>
+         <property name="logFiles" value="/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527/execution0.log"/>
+         <property name="attachments" value="/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527/1678610161778.png, /Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527/1678610162039.png"/>
+         <property name="hostName" value="isfahani - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="8782378179d512c5665e9f5e5bc9a46b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC03_Dropdown" time="9.642" classname="Test Cases/TC03_Dropdown" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:35:29 - [TEST_CASE][PASSED] - Test Cases/TC03_Dropdown: Test Cases/TC03_Dropdown
+
+2023-03-12 15:35:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:35:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:35:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:35:32 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:35 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dropdown/a_Dropdown")): Object: 'Object Repository/Page_Dropdown/a_Dropdown' is clicked on
+
+2023-03-12 15:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dropdown/a_Dropdown' is clicked on
+
+2023-03-12 15:35:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200'  using regular expression
+
+2023-03-12 15:35:37 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200'  using regular expression
+
+2023-03-12 15:35:37 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_Dropdown/select_Please select an option    Option 1 _a93200"), "Option 1", false, G_ShortTimeOut): All options with label 'Option 1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200' 
+
+2023-03-12 15:35:39 - [MESSAGE][PASSED] - All options with label 'Option 1' are selected in object 'Object Repository/Page_Dropdown/select_Please select an option    Option 1 _a93200' 
+
+2023-03-12 15:35:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:35:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_FormAuthInvalid" time="9.448" classname="Test Cases/TC02_FormAuthInvalid" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:35:39 - [TEST_CASE][PASSED] - Test Cases/TC02_FormAuthInvalid: Test Cases/TC02_FormAuthInvalid
+
+2023-03-12 15:35:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:35:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:35:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:35:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:35:40 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:44 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Form/a_Form Authentication")): Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Form/input_Username_username"), "tomsmith"): Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:35:46 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:35:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Form/input_Password_password"), "HYgoh8+fSawe6uICC60QVw=="): Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:35:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Form/i_Login")): Object: 'Object Repository/Page_Form/i_Login' is clicked on
+
+2023-03-12 15:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/i_Login' is clicked on
+
+2023-03-12 15:35:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Form/div_Your password is invalid"), G_ShortTimeOut): Object 'Object Repository/Page_Form/div_Your password is invalid' is present
+
+2023-03-12 15:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/div_Your password is invalid' is present
+
+2023-03-12 15:35:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:35:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_MultiBrowser" time="13.552" classname="Test Cases/TC04_MultiBrowser" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC04_MultiBrowser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '&quot;', 'example', '&quot;', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-03-12 15:35:48 - [TEST_CASE][FAILED] - Test Cases/TC04_MultiBrowser: Test Cases/TC04_MultiBrowser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-03-12 15:35:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:35:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:35:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:35:50 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:54 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MultiBrowser/a_Multiple Windows")): Object: 'Object Repository/Page_MultiBrowser/a_Multiple Windows' is clicked on
+
+2023-03-12 15:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultiBrowser/a_Multiple Windows' is clicked on
+
+2023-03-12 15:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_MultiBrowser/a_Click Here")): Object: 'Object Repository/Page_MultiBrowser/a_Click Here' is clicked on
+
+2023-03-12 15:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultiBrowser/a_Click Here' is clicked on
+
+2023-03-12 15:35:55 - [TEST_STEP][PASSED] - switchToWindowTitle("New Window"): Switched to window with title: 'New Window'
+
+2023-03-12 15:35:55 - [MESSAGE][PASSED] - Switched to window with title: 'New Window'
+
+2023-03-12 15:35:55 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window"), G_ShortTimeOut): Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-03-12 15:36:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-12 15:36:02 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+)
+[[ATTACHMENT|/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527/1678610161778.png]]
+
+2023-03-12 15:36:02 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/isfahani/Katalon Studio/Web Automation/Reports/20230312_153526/TS_RegressionTest/20230312_153527/1678610162039.png]]]]></system-out>
+         <system-err><![CDATA[2023-03-12 15:35:48 - [TEST_CASE][FAILED] - Test Cases/TC04_MultiBrowser: Test Cases/TC04_MultiBrowser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01_FormAuthentication" time="10.469" classname="Test Cases/TC01_FormAuthentication" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:36:02 - [TEST_CASE][PASSED] - Test Cases/TC01_FormAuthentication: Test Cases/TC01_FormAuthentication
+
+2023-03-12 15:36:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:36:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-12 15:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:36:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:36:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:36:04 - [MESSAGE][PASSED] - Browser is closed
+
+2023-03-12 15:36:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:36:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:36:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:36:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:36:05 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:08 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form/a_Form Authentication")): Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/a_Form Authentication' is clicked on
+
+2023-03-12 15:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form/input_Username_username"), "tomsmith"): Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:36:10 - [MESSAGE][PASSED] - Text 'tomsmith' is set on object 'Object Repository/Page_Form/input_Username_username'
+
+2023-03-12 15:36:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Form/input_Password_password"), "T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI"): Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:36:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form/input_Password_password'
+
+2023-03-12 15:36:11 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/i_Login"), G_ShortTimeOut): Object 'Object Repository/Page_Form/i_Login' is present and visible in viewport
+
+2023-03-12 15:36:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/i_Login' is present and visible in viewport
+
+2023-03-12 15:36:11 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/h2_Secure Area"), G_ShortTimeOut): Object 'Object Repository/Page_Form/h2_Secure Area' is present and visible in viewport
+
+2023-03-12 15:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/h2_Secure Area' is present and visible in viewport
+
+2023-03-12 15:36:12 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc"), G_ShortTimeOut): Object 'Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc' is present and visible in viewport
+
+2023-03-12 15:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/h4_Welcome to the Secure Area. When you are_5c73fc' is present and visible in viewport
+
+2023-03-12 15:36:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:36:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_DragDrop" time="7.618" classname="Test Cases/TC06_DragDrop" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:36:12 - [TEST_CASE][PASSED] - Test Cases/TC06_DragDrop: Test Cases/TC06_DragDrop
+
+2023-03-12 15:36:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:36:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:36:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:36:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:36:14 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:18 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DragDrop/a_Drag and Drop")): Object: 'Object Repository/Page_DragDrop/a_Drag and Drop' is clicked on
+
+2023-03-12 15:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DragDrop/a_Drag and Drop' is clicked on
+
+2023-03-12 15:36:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DragDrop/header_A"), G_ShortTimeOut): Object 'Object Repository/Page_DragDrop/header_A' is present
+
+2023-03-12 15:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DragDrop/header_A' is present
+
+2023-03-12 15:36:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:36:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_Alerts" time="8.915" classname="Test Cases/TC05_Alerts" status="PASSED">
+         <system-out><![CDATA[2023-03-12 15:36:20 - [TEST_CASE][PASSED] - Test Cases/TC05_Alerts: Test Cases/TC05_Alerts
+
+2023-03-12 15:36:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-12 15:36:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-12 15:36:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-12 15:36:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-12 15:36:21 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:25 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2023-03-12 15:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/a_JavaScript Alerts")): Object: 'Object Repository/Page_Alerts/a_JavaScript Alerts' is clicked on
+
+2023-03-12 15:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/a_JavaScript Alerts' is clicked on
+
+2023-03-12 15:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Alert")): Object: 'Object Repository/Page_Alerts/button_Click for JS Alert' is clicked on
+
+2023-03-12 15:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Alert' is clicked on
+
+2023-03-12 15:36:26 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:36:26 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:36:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Alerts/p_You successfully clicked an alert"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You successfully clicked an alert' is present
+
+2023-03-12 15:36:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You successfully clicked an alert' is present
+
+2023-03-12 15:36:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Confirm")): Object: 'Object Repository/Page_Alerts/button_Click for JS Confirm' is clicked on
+
+2023-03-12 15:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Confirm' is clicked on
+
+2023-03-12 15:36:27 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:36:27 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:36:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Alerts/p_You clicked Ok"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You clicked Ok' is present
+
+2023-03-12 15:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You clicked Ok' is present
+
+2023-03-12 15:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Alerts/button_Click for JS Prompt")): Object: 'Object Repository/Page_Alerts/button_Click for JS Prompt' is clicked on
+
+2023-03-12 15:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alerts/button_Click for JS Prompt' is clicked on
+
+2023-03-12 15:36:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-03-12 15:36:28 - [TEST_STEP][PASSED] - alert().sendKeys("imam"): null
+
+2023-03-12 15:36:28 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-03-12 15:36:28 - [MESSAGE][PASSED] - Alert accepted
+
+2023-03-12 15:36:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Alerts/p_You entered imam"), G_ShortTimeOut): Object 'Object Repository/Page_Alerts/p_You entered imam' is present
+
+2023-03-12 15:36:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alerts/p_You entered imam' is present
+
+2023-03-12 15:36:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-12 15:36:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-12 15:35:29 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/TC04_MultiBrowser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-03-12 15:35:29 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/TC04_MultiBrowser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TC04_MultiBrowser.run(TC04_MultiBrowser:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678610127793.run(TempTestSuite1678610127793.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MultiBrowser/Page_New Window/h3_New Window' located by '(.//*[normalize-space(text()) and normalize-space(.)=concat('/html[1]/body[1]/div[@class=', '"', 'example', '"', ']/h3[1]')])[1]/preceding::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
